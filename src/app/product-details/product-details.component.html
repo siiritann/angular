@@ -5,4 +5,5 @@
   <h4>{{ product.price | currency:'EUR' }}</h4>
   <p>{{ product.description }}</p>
   <p>Released: {{ product.releaseDate | date:"dd/MM/yyyy"}}</p>
+  <button type="button" (click)="addToCart(product)">Buy</button>
 </div>
